@@ -1,0 +1,280 @@
+@media only screen and (min-width: 992px) {
+    .companies .single-company {
+        padding: 20px;
+    }
+
+    .jackpot-bigText h2 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .hero-content h2 {
+        font-size: 40px;
+    }
+
+    .main-menu {
+        position: fixed;
+        width: 250px;
+        height: 100%;
+        background-color: #f1f1f1;
+        right: -100%;
+        top: 0;
+        z-index: 999;
+        flex-direction: column;
+        justify-content: flex-start;
+        box-shadow: 0 0 13px rgba(0,0,0,0.2);
+        transition: all 0.5s ease;
+    }
+
+    .menu ul li {
+        opacity: 0;
+    }
+
+    @keyframes navAnimation {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+    }
+
+    .main-menu.menu-active {
+        right: 0;
+    }
+
+    .menu ul li {
+        display: block;
+    }
+
+    .menu ul {
+        margin-bottom: 30px;
+        margin-top: 100px;
+    }
+
+    .open-btn {
+        display: flex;
+    }
+
+    .close-btn {
+        display: block;
+    }
+
+    .try-btn {
+        float: none;
+    }
+
+    .companies .single-company {
+        flex: 0 0 33.33333333%;
+    }
+
+    .feature-app-image img {
+        top: 25%;
+    }
+
+    .jackpot-bigText:after {
+        display: none;
+    }
+
+    .jackpot-smallText {
+        padding: 0;
+    }
+
+    .description-content {
+        padding-top: 30px;
+    }
+
+    .testimonial-section:after {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+
+    .jackpot-smallText p {
+        width: 100%;
+    }
+
+    .feature-text-content p {
+        width: 100%;
+    }
+
+    h2,
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .companies .single-company {
+        flex: 0 0 50%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .icon-box {
+        height: 70px;
+        width: 70px;
+        flex: 0 0 70px;
+    }
+
+    .icon-box img {
+        width: 70%;
+    }
+
+    .feature-app-image {
+        display: none;
+    }
+
+    .jackpot-bigText:after {
+        display: none;
+    }
+
+    .jackpot-smallText {
+        padding: 0;
+    }
+
+    .pricing-content .btn {
+        display: block;
+        width: 274px;
+        margin: 0 auto;
+    }
+
+    .hero-content h2 {
+        font-size: 33px;
+        padding: 20px 0;
+    }
+    
+
+    .tikker p {
+        font-size: 14px;
+    }
+    
+    .tikker {
+        width: 300px;
+    }
+
+    img.ultimate-img-1 {
+        width: 50%;
+        left: 117px;
+    }
+
+    .ultimate-feature-image {
+        min-height: 380px;
+    }
+    
+    img.ultimate-img-2 {
+        width: 50%;
+        left: 61%;
+    }
+
+    .testimonial-section:after {
+        display: none;
+    }
+
+    .footer-menu a {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    a.logo h2 {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .testimonial-section .section-title p {
+        width: 100%;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .hero-content h2 {
+        font-size: 30px;
+    }
+
+    .btn.btn-without-bg {
+        padding: 0;
+        margin-top: 30px;
+        display: block;
+    }
+    
+    .companies .single-company {
+        flex: 0 0 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .feature-app-image {
+        display: none;
+    }
+
+    .jackpot-bigText:after {
+        display: none;
+    }
+
+    .jackpot-smallText {
+        padding: 0;
+    }
+
+    .jackpot-smallText p {
+        width: 100%;
+    }
+
+    .feature-text-content p {
+        width: 100%;
+    }
+
+    h2,
+    .jackpot-bigText h2,
+    .section-title h2,
+    .advertise-section h2 {
+        font-size:22px;
+        margin-top: 30px;
+    }
+
+    .testimonial-section:after {
+        display: none;
+    }
+
+    .footer-menu a {
+        display: block;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .ultimate-feature-image {
+        display: none;
+    }
+
+    .pricing-table {
+        margin-bottom: 40px;
+    }
+
+    img.ultimate-img-2 {
+        width: 200px;
+    }
+    
+    img.ultimate-img-1 {
+        width: 200px;
+        left: 100px;
+    }
+
+    a.logo h2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+
+}
