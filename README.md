@@ -1,2 +1,4 @@
 # project
-Here you can find my all front-end project which is made by html, css, bootstrap, react.js. Thank you
+This is my first project using html css and vanilla JavaScript. 
+
+Thank you
