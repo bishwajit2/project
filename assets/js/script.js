@@ -72,7 +72,10 @@ document.getElementById("plansSwitch").addEventListener("click", function() {
     const openBtn = document.querySelector(".open-btn");
     const mainMenu = document.querySelector(".main-menu");
     const closeBtn = document.querySelector(".close-btn");
+    const tryForFree = document.querySelector(".try-for-free");
     const navItem = document.querySelectorAll(".menu ul li");
+    const navLen = navItem.length;
+    console.log(navLen);
 
     openBtn.addEventListener('click', () => {
         mainMenu.classList.add("menu-active")
@@ -80,9 +83,14 @@ document.getElementById("plansSwitch").addEventListener("click", function() {
             if(link.style.animation) {
                 link.style.animation = '';
             } else {
-                link.style.animation = 'navAnimation 0.3s ease forwards ' + (index / 7 + 0.5) + 's';
+                link.style.animation = 'navAnimation 0.3s ease forwards ' + (index / 16 + 0.5) + 's';
             }
         })
+        if(tryForFree.style.animation) {
+            tryForFree.style.animation = '';
+        } else {
+            tryForFree.style.animation =  'navAnimation 0.3s ease forwards ' + (navLen / 16 + 0.5 ) + 's';
+        }
     })
 
     // Sticky menu
@@ -92,10 +100,18 @@ document.getElementById("plansSwitch").addEventListener("click", function() {
             if(link.style.animation) {
                 link.style.animation = '';
             } else {
-                link.style.animation = 'navAnimation 0.3s ease forwards ' + (index / 7 + 0.5) + 's';
+                link.style.animation = 'navAnimation 0.3s ease forwards ' + (index / 16 + 0.5) + 's';
             }
         })
+
+        if(tryForFree.style.animation) {
+            tryForFree.style.animation = '';
+        } else {
+            tryForFree.style.animation =  'navAnimation 0.3s ease forwards ' + (navLen / 16 + 0.5 ) + 's';
+        }
     })
+
+
 })();
 
 (() => {
