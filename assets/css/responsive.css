@@ -27,7 +27,8 @@
         transition: all 0.5s ease;
     }
 
-    .menu ul li {
+    .menu ul li,
+    .try-for-it {
         opacity: 0;
     }
 
